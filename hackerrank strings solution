@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	// Complete the program
+    string a,b;
+    cin>>a;
+    cin>>b;
+    int len1=a.size();
+    int len2=b.size();
+    cout<<len1<<" "<<len2<<endl;
+    cout<<a+b<<endl;
+   string sw1=b[0]+a.substr(1);
+   string sw2=a[0]+b.substr(1);
+   cout<<sw1<<" "<<sw2;
+    return 0;
+}
